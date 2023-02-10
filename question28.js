@@ -28,3 +28,20 @@ for(let i=0; i< 3 ; i++){
     a += '\n';
 }
 console.log(a);
+
+// c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+// 	         *
+// 	        ***
+//  	   *****
+ 
+let b ="";
+for (let i =1; i<=3 ; i++){
+    for(let j=1 ;j<=3-i; j++){
+        b += " ";
+    }
+    for(let k=0; k<2*i-1 ;k++){
+        b += "*";
+    }
+    b += "\n";
+}
+console.log(b);
